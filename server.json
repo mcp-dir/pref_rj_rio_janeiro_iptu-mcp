@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/pref_rj_rio_janeiro_iptu-mcp",
+  "title": "Prefeitura RJ Rio de Janeiro: Emissão de IPTU",
+  "description": "Prefeitura RJ Rio de Janeiro: Issuance de IPTU, official-source lookup. Platform-hosted, pay per que",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/pref_rj_rio_janeiro_iptu-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_pref_rj_rio_janeiro_iptu"
+    }
+  ]
+}
